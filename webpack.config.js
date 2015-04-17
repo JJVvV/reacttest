@@ -41,9 +41,9 @@ module.exports = {
         './js/app'
     ],
     output: {
-        path: path.join(__dirname, 'build'),
-        filename: 'bundle.js',
-        publicPath: '/js/'
+        path: __dirname,
+        filename: '/js/bundle.js'
+
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
